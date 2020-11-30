@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(120deg, #faf7e9, #09DA46);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.wrapper {
+  padding-top: 5rem;
+  margin: 0 auto;
+  width: 600px;
+}
+
+.rm {
+  background: rgb(226, 16, 16);
+  border-radius: 50%;
+  color: #fff;
+  border: none;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.addButton {
+  background-color: rgb(13, 202, 76);
+  border: 1px solid rgb(13, 202, 76);
+  height: 1.8rem;
+  font-size: 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+.input {
+  height: 1.5rem;
+  border-radius: 5px;
+  border: 1px solid;
+  width: 31.5rem;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+
+}
+
+
+.form {
+  align-items: center;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.lds-dual-ring {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid rgb(13, 202, 76);
+  border-color: rgb(13, 202, 76) transparent rgb(13, 202, 76) transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
